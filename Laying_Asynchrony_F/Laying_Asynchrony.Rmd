@@ -156,9 +156,6 @@ baseline_ageglmer = glmer(HA ~ PROPORTIONALRANK + AGEHEMB + I(AGEHEMB^2) + (1|AN
 bbmle::AICtab(baselineglmer,baseline_yearglmer,baseline_ageglmer)
 bbmle::AICtab(baseline,baseline_year,baseline_age)
 bbmle::AICtab(baseline,baselineclmm, baselineglmer)
-# Singular fit with both anillohemb and year as random effect only one one
-
-# And femalle age does not improve the model
 ```
 
 
